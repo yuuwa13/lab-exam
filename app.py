@@ -103,5 +103,6 @@ if submitted:
     st.markdown("---")
     if prediction == 1:
         st.success(f"This wine is predicted to be of good quality. (Confidence: {confidence:.2%})")
+        st.balloons()
     else:
         st.error(f"This wine is predicted to be of lower quality. (Confidence: {confidence:.2%})")
